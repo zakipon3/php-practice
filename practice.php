@@ -1,3 +1,3 @@
 <?php
-var_dump( 12 % 5 );
+var_dump( 2 ** 3 );
 ?>

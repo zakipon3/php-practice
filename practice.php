@@ -1,3 +1,3 @@
 <?php
-var_dump("hello! PHP!");
+var_dump("hello PHP!");
 ?>

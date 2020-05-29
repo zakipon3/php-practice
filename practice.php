@@ -1,3 +1,4 @@
 <?php
-var_dump( 2 ** 3 );
+$msg = "hello";
+var_dump( $msg );
 ?>

@@ -1,9 +1,6 @@
 <?php
-var_dump("年齢は？");
-(int)$age = trim(fgets(STDIN));
-if($age > 6 && $age < 15){
-  var_dump($age."歳なので義務教育です");
-}else{
-  var_dump($age."歳なので義務教育ではありません");
+$wdays = ["月", "火", "水", "木", "金", "土", "日"];
+foreach($wdays as $wday){
+  var_dump($wday . "曜日");
 }
 ?>

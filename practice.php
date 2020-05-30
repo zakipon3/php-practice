@@ -15,4 +15,8 @@ $msg %= 5;
 var_dump($msg);
 $msg **= 4;
 var_dump($msg);
+
+var_dump("入力せよ");
+$msg = fgets(STDIN);
+var_dump($msg);
 ?>

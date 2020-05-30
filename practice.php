@@ -1,7 +1,7 @@
 <?php
-foreach(range(1,9) as $x){
-  foreach(range(1,9) as $y){
-  var_dump($x. "*". $y. "=". $x * $y);
-}
+$money = 30000;
+while( $money >= 0 ){
+  var_dump($money);
+  $money -= 3000;
 }
 ?>

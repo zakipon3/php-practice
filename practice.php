@@ -7,7 +7,7 @@
 <body>
   <h1>hello</h1>
   <p>world</p>
-  <form action="practice2.php" method="get">
+  <form action="practice2_post.php" method="post">
     <input type="text" name="comment">
     <input type="submit" value="送信">
   </form>

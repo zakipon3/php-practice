@@ -1,7 +1,15 @@
-<?php
-function createmsg($price){
-  return 500 * $price;
-}
-
-var_dump("代金は".createmsg(6). "円です。");
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>php app</title>
+</head>
+<body>
+  <h1>hello</h1>
+  <p>world</p>
+  <form action="practice2.php" method="get">
+    <input type="text" name="comment">
+    <input type="submit" value="送信">
+  </form>
+</body>
+</html>

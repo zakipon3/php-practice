@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>php app</title>
-</head>
-<body>
-  <h1>hello</h1>
-  <p>world</p>
-  <form action="practice2_get.php" method="get">
-    <input type="text" name="comment">
-    <input type="submit" value="送信">
-  </form>
-</body>
-</html>
+<?php
+function h($str){
+  return htmlspecialchars($str, ENT_QUOTES, "UTF-8");
+}
+function eto($year){
+  $etos = ["子", "丑", "寅", "卯", "辰", "巳", "馬", "未", "申", "酉", "戌", "亥"];
+  return $etos[($year - 4) % 12];
+}
+$year = filter_input(INPUT_GET, "year", FILTER_VALIDATE_INT);
+?>
+
